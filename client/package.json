@@ -31,10 +31,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts prebuild",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild" : "npm install --prefix client && npm run build --prefix client"
   },
   "proxy": "http://localhost:5000",
   "eslintConfig": {

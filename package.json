@@ -37,7 +37,7 @@
     "react-scripts": "^3.4.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "validator": "^10.9.0",
+    "validator": "^13.7.0",
     "terser": "3.14.1"
   }
 }
